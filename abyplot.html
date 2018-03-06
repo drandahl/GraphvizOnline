@@ -136,27 +136,19 @@
       t18 [href="http://abyssus-invocat.boards.net/thread/18", label="Hot on the Trail Mix"];
       t20 [href="http://abyssus-invocat.boards.net/thread/20", label="Cat ain't going to the murder house after 2"];
       t22 [href="http://abyssus-invocat.boards.net/thread/22", label="Sävelmä"];
-
+      t24 [href="http://abyssus-invocat.boards.net/thread/24", label="Advancing the General Story"];
 
     }
 
     subgraph cluster_active {
       node [fillcolor="#33ff33", style=filled];
       label="";
-      t24 [href="http://abyssus-invocat.boards.net/thread/24", label="Advancing the General Story"];
       t23 [href="http://abyssus-invocat.boards.net/thread/23", label="A genteel black hole that knows how to read"];
       t19 [href="http://abyssus-invocat.boards.net/thread/19", label="To Grandmother's House We Go"];
-      t21 [href="http://abyssus-invocat.boards.net/thread/21", label="Cabin in the Woods"];
+      t27 [href="http://abyssus-invocat.boards.net/thread/27", label="Grandcafe"];
+
     }
-    
-    subgraph cluster_player {
-      node [fillcolor="#33ff33", style=filled];
-      label="";
-      t24 [href="http://abyssus-invocat.boards.net/thread/24", label="Advancing the General Story"];
-      t23 [href="http://abyssus-invocat.boards.net/thread/23", label="A genteel black hole that knows how to read"];
-      t19 [href="http://abyssus-invocat.boards.net/thread/19", label="To Grandmother's House We Go"];
-      t21 [href="http://abyssus-invocat.boards.net/thread/21", label="Cabin in the Woods"];
-    }
+
 
     subgraph cCat {
         edge [color="#39ff09", arrowsize="1.2", penwidth="3"];
@@ -179,7 +171,7 @@
     subgraph cDawn {
         edge [color="#4f824a", arrowsize="1.2", penwidth="3"];
         node [color="#4f824a", fontcolor="#4f824a"];
-        "Dawn"->t11->t17->t24;
+        "Dawn"->t11->t17->t24->t27;
     }
 
     subgraph cOlive {
